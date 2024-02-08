@@ -5,7 +5,7 @@ node_modules
 /kickstart/node_modules
 /.pnp
 .pnp.js
-.next
+/kickstart/.next
 
 # testing
 /coverage
