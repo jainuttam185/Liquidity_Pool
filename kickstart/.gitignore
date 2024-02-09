@@ -7,7 +7,7 @@ ethereum/node_modules
 /.pnp
 .pnp.js
 
-.next
+/.next/
 
 # testing
 /coverage
