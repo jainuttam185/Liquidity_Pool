@@ -1,3 +1,5 @@
+
+
 .full{
   background: linear-gradient(
       to bottom,
@@ -5,6 +7,21 @@
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background: rgb(27, 27, 27);
+}
+
+.header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(252, 114, 255);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.header2{
+  letter-spacing: 2px;
+  color: #f6f2ff;
 }
 
 .top{
@@ -12,7 +29,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: rgb(27, 27, 27);
 }
 
 .box{
@@ -63,4 +79,9 @@
     border-radius: 5px;
     cursor: pointer;
     padding: 1px 10px;
+  }
+
+  .token1{
+    color:#e4e3ea;
+    align-items: flex-start;
   }
